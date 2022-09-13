@@ -77,11 +77,10 @@ WSGI_APPLICATION = 'finav.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'finavdb',
+        'NAME': 'finavdatabase',
         'USER': 'postgres',
         'PASSWORD': 'postgres',
         'HOST': 'localhost',
-
     }
 }
 
